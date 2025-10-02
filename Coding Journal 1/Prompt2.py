@@ -1,0 +1,10 @@
+a = 10.0
+b = 2.0
+c = 10
+d = 2
+sum = a+b
+difference = c-d
+product = a*c
+print(f"Sum of two floats = ", sum , type(sum))
+print(f"Difference between two integers = ", difference, type(difference))
+print(f"Product of a float and an integer = ", product, type(product))
