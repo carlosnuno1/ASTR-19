@@ -1,27 +1,12 @@
-from astropy.time import Time
-
-def print_modified_julian_date():
-
-  #define a date
-
-  s = '2022-03-14T15:09:26.53589793Z'
-
-  #create an astropy time object
-
-  t = Time(s)
-
-  #print the modified Julian date
-
-  print(t.mjd)
+import sys
+import numpy as np
 
 def main():
+  x = 0.0
 
-  #print a modified julian date
-
-  print_modified_julian_date()
-
-#run the program
+  for i in range(0,19):
+    x = (i*2) + 19
+  print(f"The value of x is = ", x)
 
 if __name__=="__main__":
-
-  main()
+    main()
